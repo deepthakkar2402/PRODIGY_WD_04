@@ -1,0 +1,150 @@
+p {
+    padding-left: 2em;
+}
+
+h3 {
+    margin-left: 10px;
+    color: rgb(0, 68, 0);
+}
+
+h2 {
+    color: white;
+    background: #5d5d5d;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    font-size:larger;
+    background: #000000;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+.section {
+    width: 100%;
+    margin: 0; 
+}
+
+.container {
+    margin: 0;
+}
+
+h1 {
+    padding: 2rem 0 0.3em 0;
+    color: white    ;
+    margin-top: 2rem;
+    text-align: center;
+    background: #8a8a8a;
+    border-bottom: 1px solid #002b7a;
+    transition: background 0.5s ease, color 0.5s ease; 
+}
+
+
+
+h1:hover {
+    color: white;
+    background:lightslategray;
+}
+
+.subheading{
+    display:inline-block;
+    margin:0.1rem;
+    padding: 10px;
+    background: lightslategray;
+    color:white;
+    border-radius: 10px;
+    
+
+}
+
+#home .headline {
+    font-size: large;
+    text-align: center;
+}
+
+.profile-pic {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 0%;
+    width: 170px;
+    height: 200px;
+    object-fit:fill;
+    border: 2.5px solid #0b006b;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 1rem; 
+}
+
+.skills li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: lightslategray;
+    color: white;
+    border-radius: 5px;
+}
+
+#about h3, #projects h3 {
+    margin-top: 1.5rem;
+}
+
+.professional li{
+list-style-type: "»  ";
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #000000;
+    color: white;
+}
+
+a {
+    color: #007BFF;
+}
